@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <div class="card_we_do">
+                <div class="card">
                     <img src="/img/Group-247.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-4 bold">Data Analysis</h5>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card_we_do">
+                <div class="card">
                     <img src="/img/Group-567.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-4 bold">SEO Optimization</h5>
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card_we_do">
+                <div class="card">
                     <img src="/img/Group-538.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-4 bold">Security Data</h5>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card_we_do">
+                <div class="card">
                     <img src="/img/Group-566.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-4 bold">Branding Strategy</h5>
@@ -63,12 +63,16 @@ export default {
 
 <style lang="scss" scoped>
 
-.card_we_do {
-    height: 100%;
-    padding: 60px;
+.card {
+    height: 400px;
+    padding: 30px;
+    border: none;
 
     img {
         padding: 24px;
+    }
+    h5 {
+        font-size: 14px;
     }
 }
 

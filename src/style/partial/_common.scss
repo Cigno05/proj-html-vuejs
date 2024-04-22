@@ -1,0 +1,76 @@
+.btn-blue {
+    background: rgb(28, 176, 215);
+    background: linear-gradient(90deg, rgba(28, 176, 215, 1) 0%, rgba(82, 124, 235, 1) 100%);
+    border-radius: 20px;
+    padding: 6px 24px;
+    color: white;
+    border: none;
+
+    &:hover {
+        background: rgb(182, 36, 110);
+        background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
+        color: white;
+    }
+}
+
+.btn-red {
+    background: rgb(182, 36, 110);
+    background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
+    border-radius: 20px;
+    padding: 6px 24px;
+    color: white;
+    border: none;
+
+    &:hover {
+        background: rgb(28, 176, 215);
+        background: linear-gradient(90deg, rgba(28, 176, 215, 1) 0%, rgba(82, 124, 235, 1) 100%);
+        color: white;
+    }
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.salmon-text {
+    color: #F9636B;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.gradient-blue-bg {
+    background: rgb(25, 25, 25);
+    background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(82, 124, 235, 1) 100%);
+    color: white;
+}
+
+.blue-text {
+    color: #1CB0D7;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

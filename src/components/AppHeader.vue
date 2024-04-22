@@ -40,10 +40,10 @@
                         <div class="card-jumbo">
                             <div class="card-body">
                                 <h2 class="bold">Business Planning</h2>
-                                <h2 class="">Digital Technology</h2>
-                                <h2 class="bold">Modern Solution</h2>
-                                <p class="">When, while the lovely valley teems with vpour around meand the meridian sun
-                                    strikes the upper surface</p>
+                                <h2 >Digital Technology</h2>
+                                <h2 class="bold">Modern Solution!</h2>
+                                <h6 class="blue-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                    strikes the upper surface</h6>
                                 <a href="#" class="btn btn-red me-3">Try it now</a>
                                 <a href="#" class="btn btn-blue">Explore more</a>
                             </div>
@@ -68,8 +68,6 @@ export default {
 
 <style lang="scss" scoped>
 .header__container {
-    background: rgb(25, 25, 25);
-    background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(82, 124, 235, 1) 100%);
     padding-bottom: 100px;
 }
 nav {
@@ -82,18 +80,20 @@ nav {
     }
 }
 
-
 .jumbo {
-    h2 {
-        color: white;
-    }
+    
+    h6 {
+        
+        padding: 20px 20px 20px 0;
 
-    p {
-        color: #1CB0D7;
     }
 
     img {
-        height: 500px;
+        height: 400px;
     }
+}
+
+.card-jumbo {
+    padding:50px 80px 50px 0;
 }
 </style>

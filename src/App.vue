@@ -1,7 +1,9 @@
 <template>
   <div>
-    
-    <AppHeader />
+    <div class="gradient-blue-bg">
+      <AppHeader />
+    </div>
+
     <AppMain />
     <AppFooter />
   </div>
