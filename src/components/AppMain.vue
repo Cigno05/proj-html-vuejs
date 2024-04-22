@@ -1,14 +1,19 @@
 <template>
-    <div>
-        <h1>Main</h1>
-    </div>
+    <MainWeDo />
+
 </template>
 
 <script>
-    export default {
-        
-    }
+import MainWeDo from './MainWeDo.vue'
+
+
+export default {
+    components: {
+        MainWeDo,
+    },
+}
 </script>
+
 
 <style lang="scss" scoped>
 

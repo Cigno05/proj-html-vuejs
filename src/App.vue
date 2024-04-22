@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>App <font-awesome-icon :icon="['fas', 'house']" /></h1>
+    
     <AppHeader />
     <AppMain />
     <AppFooter />

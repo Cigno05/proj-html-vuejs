@@ -1,0 +1,75 @@
+<template>
+    <div class="container-lg mt-4">
+        <div class="row text-center mb-4">
+            <h6 class="salmon-text">Our Servers</h6>
+            <h3><span class="bold">What </span>We Do</h3>
+            <h6>When, while the lovely valley teems with vpour around meand the</h6>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card_we_do">
+                    <img src="/img/Group-247.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 bold">Data Analysis</h5>
+                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                    strikes the upper surface</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card_we_do">
+                    <img src="/img/Group-567.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 bold">SEO Optimization</h5>
+                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                    strikes the upper surface</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card_we_do">
+                    <img src="/img/Group-538.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 bold">Security Data</h5>
+                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                    strikes the upper surface</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card_we_do">
+                    <img src="/img/Group-566.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4 bold">Branding Strategy</h5>
+                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                    strikes the upper surface</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mb-4 mt-4">
+            <button class="btn-red">View All Service</button>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+
+<style lang="scss" scoped>
+
+.card_we_do {
+    height: 100%;
+    padding: 60px;
+
+    img {
+        padding: 24px;
+    }
+}
+
+</style>
