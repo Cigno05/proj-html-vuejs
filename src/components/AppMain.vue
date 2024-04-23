@@ -5,6 +5,7 @@
         <MainPricing />
         <MainLatestPost />
         <MainPeople />
+        <MainSponsor />
 
 </template>
 
@@ -15,6 +16,7 @@ import MainLatestWork from './MainLatestWork.vue';
 import MainPricing from './MainPricing.vue';
 import MainLatestPost from './MainLatestPost.vue';
 import MainPeople from './MainPeople.vue';
+import MainSponsor from './MainSponsor.vue'
 
 export default {
     components: {
@@ -24,6 +26,7 @@ export default {
         MainPricing,
         MainLatestPost,
         MainPeople,
+        MainSponsor,
     },
 }
 </script>
