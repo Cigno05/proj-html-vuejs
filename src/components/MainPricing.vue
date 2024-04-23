@@ -13,6 +13,7 @@
                 <div class="row cards">
                     <div class="col-4 p-4">
                         <div class="card-pricing text-center py-4">
+                            <span class="number-bg">40</span>
                             <div class="card-title">
                                 <h3 class="bold">Designing</h3>
                                 <h6>PROCESS</h6>
@@ -42,6 +43,7 @@
                     </div>
                     <div class="col-4 p-4">
                         <div class="card-pricing text-center py-4 gradient-salmon-bg">
+                            <span class="number-bg">40</span>
                             <div class="card-title">
                                 <h3 class="bold">Designing</h3>
                                 <h6>PROCESS</h6>
@@ -68,6 +70,7 @@
                     </div>
                     <div class="col-4 p-4">
                         <div class="card-pricing text-center py-4">
+                            <span class="number-bg">40</span>
                             <div class="card-title">
                                 <h3 class="bold">Designing</h3>
                                 <h6>PROCESS</h6>
@@ -115,13 +118,26 @@ export default {
     width: 100%;
     background-color: white;
     border-radius: 24px;
-    color: black
+    color: black;
+    position: relative;
     
+}
+
+.number-bg {
+    position: absolute;
+    font-size: 250px;
+    right: -10px;
+    top: -116px;
+    color: rgba($color: #000000, $alpha: 0.15);
 }
 
 .gradient-salmon-bg {
 
     color: white;
+
+    .number-bg {
+        color: rgba($color: #FFFFFF, $alpha: 0.15);;
+    }
 
     button {
         background-color: white;

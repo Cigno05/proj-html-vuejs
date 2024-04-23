@@ -1,5 +1,5 @@
 <template>
-    <div class="gradient-blue-bg">
+    <div class="blue-bg">
         <div class="header__container">
             <nav class="navbar navbar-expand-lg container-lg d-flex">
                 <div class="me-auto">
@@ -28,11 +28,11 @@
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
                     </ul>
-    
+
                 </div>
                 <button class="btn-blue ms-4" type="">Sign in</button>
-    
-    
+
+
             </nav>
             <div class="jumbo">
                 <div class="container-lg mt-4">
@@ -41,9 +41,10 @@
                             <div class="card-jumbo">
                                 <div class="card-body">
                                     <h2 class="bold">Business Planning</h2>
-                                    <h2 >Digital Technology</h2>
+                                    <h2>Digital Technology</h2>
                                     <h2 class="bold">Modern Solution!</h2>
-                                    <h6 class="blue-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                    <h6 class="blue-text">When, while the lovely valley teems with vpour around meand
+                                        the meridian sun
                                         strikes the upper surface</h6>
                                     <a href="#" class="btn btn-red me-3">Try it now</a>
                                     <a href="#" class="btn btn-blue">Explore more</a>
@@ -55,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-    
+
             </div>
         </div>
     </div>
@@ -73,8 +74,18 @@ export default {
 .header__container {
     padding-bottom: 100px;
 }
+
 nav {
     background-color: transparent;
+
+    .nav-link {
+
+        color: white;
+    }
+
+    .salmon-text {
+        color: #F9636B;
+    }
 }
 
 .navbar-brand {
@@ -84,11 +95,9 @@ nav {
 }
 
 .jumbo {
-    
-    h6 {
-        
-        padding: 20px 20px 20px 0;
 
+    h6 {
+        padding: 20px 20px 20px 0;
     }
 
     img {
@@ -97,6 +106,6 @@ nav {
 }
 
 .card-jumbo {
-    padding:50px 80px 50px 0;
+    padding: 50px 80px 50px 0;
 }
 </style>

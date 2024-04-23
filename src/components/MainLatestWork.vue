@@ -1,9 +1,15 @@
 <template>
     <div class="white-bg">
         <div class="container-lg pt-4">
-            <div class="row">
-                <h6 class="salmon-text">Products</h6>
-                <h3><span class="bold">latest </span>work</h3>
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="title">
+                    <h6 class="salmon-text">Products</h6>
+                    <h3><span class="bold">latest </span>work</h3>
+                </div>
+                <div class="arrow d-flex gap-3">
+                    <button class="prev"><font-awesome-icon :icon="['fas', 'arrow-left']" /></button>
+                    <button class="next"><font-awesome-icon :icon="['fas', 'arrow-right']" /></button>
+                </div>
             </div>
         </div>
         <div class="container-fluid">
@@ -86,6 +92,14 @@ export default {
     &:hover {
         background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
         color: white;
+    }
+}
+
+.arrow{
+    button {
+        border-radius: 50%;
+        border:2px solid salmon;
+        color: salmon;
     }
 }
 

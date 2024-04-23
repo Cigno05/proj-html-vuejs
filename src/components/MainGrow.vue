@@ -1,9 +1,11 @@
 <template>
-<div class="gradient-blue-bg">
+<div class="blue-bg">
     <div class="container-lg">
         <div class="row">
-            <div class="col-6">
-                <img src="/img/men-data.png" alt="">
+            <div class="col-6 position-relative">
+                <img src="/img/men-data.png" class="front-img z-2" alt="">
+                <img src="/img/nemoodar.png" class="back-img z-1" alt="">
+
             </div>
             <div class="col-6">
                 <div class="card-grow">
@@ -33,8 +35,6 @@ export default {
 <style lang="scss" scoped>
 .container-lg {
     padding: 60px 120px;
-    background: rgb(25, 25, 25);
-    background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(82, 124, 235, 1) 100%);
     padding-bottom: 100px;
 }
 
@@ -45,5 +45,18 @@ export default {
 img {
     width: 200px;
     margin-left: 40px;
+    
+    &.front-img {
+        position: absolute;
+        left: 0px;
+    }
+    
+    &.back-img {
+        position: absolute;
+        left: -30px;
+        bottom: 30px;
+        
+    }
 }
+
 </style>

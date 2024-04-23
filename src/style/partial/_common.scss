@@ -54,13 +54,18 @@ h6 {
     color: white;
 }
 
-.gradient-blue-bg {
-    background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(82, 124, 235, 1) 100%);
+.gradient-blue-bg-ht {
+    background: linear-gradient(180deg, rgba(0,28,103,1) 60%, rgba(229,229,234,1) 40%);
     color: white;
 }
 
-.gradient-blue-bg-ht {
-    background: linear-gradient(180deg, rgba(0,28,103,1) 60%, rgba(229,229,234,1) 40%);
+.gradient-blue-bg-hb {
+    background: linear-gradient(180deg, rgba(229,229,234,1) 50%, rgba(0,28,103,1) 50%);
+    color: white;
+}
+
+.blue-bg {
+    background-color: #233064;
     color: white;
 }
 
