@@ -1,17 +1,9 @@
 <template>
-    <div class="gradient-white-bg">
         <MainWeDo />
-    </div>
-
-    <div class="gradient-blue-bg">
         <MainGrow />
-    </div>
-    
-    <div class="gradient-white-bg">
         <MainLatestWork />
-    </div>
-
-    <MainPricing />
+        <MainPricing />
+        <MainLatestPost />
 
 </template>
 
@@ -20,7 +12,7 @@ import MainWeDo from './MainWeDo.vue';
 import MainGrow from './MainGrow.vue';
 import MainLatestWork from './MainLatestWork.vue';
 import MainPricing from './MainPricing.vue';
-
+import MainLatestPost from './MainLatestPost.vue'
 
 export default {
     components: {
@@ -28,6 +20,7 @@ export default {
         MainGrow,
         MainLatestWork,
         MainPricing,
+        MainLatestPost,
     },
 }
 </script>

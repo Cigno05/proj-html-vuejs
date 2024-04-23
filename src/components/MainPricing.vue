@@ -1,6 +1,6 @@
 <template>
     <div class="gradient-blue-bg-ht">
-        <div class="container-lg">
+        <div class="container-lg pt-4">
             <div class="row">
                 <div class="row text-center mb-4">
                     <h6 class="salmon-text">Price List</h6>

@@ -1,4 +1,5 @@
 <template>
+<div class="gradient-blue-bg">
     <div class="container-lg">
         <div class="row">
             <div class="col-6">
@@ -19,6 +20,8 @@
             </div>
         </div>
     </div>
+</div>
+
 </template>
 
 <script>

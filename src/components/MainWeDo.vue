@@ -1,5 +1,5 @@
 <template>
-    <div class="white-bg">
+    <div>
 
         <div class="container-lg pt-4">
             <div class="row text-center mb-4">
@@ -73,6 +73,7 @@ export default {
 
     img {
         padding: 24px;
+        height: 200px;
     }
     h5 {
         font-size: 14px;
