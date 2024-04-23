@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row d-flex flex-nowrap gap-4 justify-content-center">           
+            <div class="row d-flex flex-nowrap gap-4 justify-content-center overflow-x-hidden">           
                 
                 <div class="card-latest mt-4 mb-4">
                     <img src="/img/city.jpg" class="card-img-top" alt="...">

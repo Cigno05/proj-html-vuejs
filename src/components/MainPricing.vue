@@ -2,7 +2,7 @@
     <div class="gradient-blue-bg-ht">
         <div class="container-lg pt-4">
             <div class="row">
-                <div class="row text-center mb-4">
+                <div class="col-12 text-center mb-4">
                     <h6 class="salmon-text">Price List</h6>
                     <h3><span class="bold">Our </span>Pricing</h3>
                     <h6>When, while the lovely valley teems with vpour around meand the upper surface</h6>

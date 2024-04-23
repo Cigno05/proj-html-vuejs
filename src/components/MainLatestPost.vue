@@ -2,7 +2,7 @@
     <div class="white-bg">
         <div class="container-lg">
             <div class="row">
-                <div class="row text-center mb-4">
+                <div class="col-12 text-center mb-4">
                     <h6 class="salmon-text">Blog</h6>
                     <h3><span class="bold">Latest </span>Post</h3>
                     <h6>When, while the lovely valley teems with vpour around meand the upper surface</h6>

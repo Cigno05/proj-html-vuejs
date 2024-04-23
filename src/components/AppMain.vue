@@ -4,6 +4,7 @@
         <MainLatestWork />
         <MainPricing />
         <MainLatestPost />
+        <MainPeople />
 
 </template>
 
@@ -12,7 +13,8 @@ import MainWeDo from './MainWeDo.vue';
 import MainGrow from './MainGrow.vue';
 import MainLatestWork from './MainLatestWork.vue';
 import MainPricing from './MainPricing.vue';
-import MainLatestPost from './MainLatestPost.vue'
+import MainLatestPost from './MainLatestPost.vue';
+import MainPeople from './MainPeople.vue';
 
 export default {
     components: {
@@ -21,6 +23,7 @@ export default {
         MainLatestWork,
         MainPricing,
         MainLatestPost,
+        MainPeople,
     },
 }
 </script>
