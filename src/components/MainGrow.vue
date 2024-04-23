@@ -5,7 +5,7 @@
                 <img src="/img/men-data.png" alt="">
             </div>
             <div class="col-6">
-                <div class="card-jumbo">
+                <div class="card-grow">
                     <div class="card-body">
                         <h6>Start Your Project</h6>
                         <h2 class="bold">Grow Your Business</h2>
@@ -35,7 +35,12 @@ export default {
     padding-bottom: 100px;
 }
 
+.card-grow {
+    padding-top: 20px;
+}
+
 img {
     width: 200px;
+    margin-left: 40px;
 }
 </style>

@@ -48,7 +48,7 @@
             </div>
         </div>
         
-        <div class="text-center mb-4 mt-4">
+        <div class="text-center pb-4 pt-4">
             <button class="btn-red">View All Service</button>
         </div>
     </div>

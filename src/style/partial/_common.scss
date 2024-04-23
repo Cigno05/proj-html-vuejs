@@ -1,5 +1,4 @@
 .btn-blue {
-    background: rgb(28, 176, 215);
     background: linear-gradient(90deg, rgba(28, 176, 215, 1) 0%, rgba(82, 124, 235, 1) 100%);
     border-radius: 20px;
     padding: 6px 24px;
@@ -7,14 +6,12 @@
     border: none;
 
     &:hover {
-        background: rgb(182, 36, 110);
         background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
         color: white;
     }
 }
 
 .btn-red {
-    background: rgb(182, 36, 110);
     background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
     border-radius: 20px;
     padding: 6px 24px;
@@ -22,7 +19,6 @@
     border: none;
 
     &:hover {
-        background: rgb(28, 176, 215);
         background: linear-gradient(90deg, rgba(28, 176, 215, 1) 0%, rgba(82, 124, 235, 1) 100%);
         color: white;
     }
@@ -41,36 +37,18 @@ h6 {
 }
 
 .gradient-blue-bg {
-    background: rgb(25, 25, 25);
     background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(82, 124, 235, 1) 100%);
     color: white;
 }
 
-.blue-text {
-    color: #1CB0D7;    
+.gradient-white-bg {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 50%, rgba(224, 224, 224, 1) 100%);
 }
 
+.blue-text {
+    color: #1CB0D7;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.gray-text {
+    color: #AAAAAA;
+}
