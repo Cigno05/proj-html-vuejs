@@ -1,55 +1,58 @@
 <template>
-    <div class="container-lg mt-4">
-        <div class="row text-center mb-4">
-            <h6 class="salmon-text">Our Servers</h6>
-            <h3><span class="bold">What </span>We Do</h3>
-            <h6>When, while the lovely valley teems with vpour around meand the</h6>
-        </div>
-        <div class="row">
-            <div class="col-3">
-                <div class="card">
-                    <img src="/img/Group-247.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-4 bold">Data Analysis</h5>
-                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
-                                    strikes the upper surface</h6>
+    <div class="white-bg">
+
+        <div class="container-lg pt-4">
+            <div class="row text-center mb-4">
+                <h6 class="salmon-text">Our Servers</h6>
+                <h3><span class="bold">What </span>We Do</h3>
+                <h6>When, while the lovely valley teems with vpour around meand the</h6>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/img/Group-247.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-4 bold">Data Analysis</h5>
+                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                        strikes the upper surface</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/img/Group-567.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-4 bold">SEO Optimization</h5>
+                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                        strikes the upper surface</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/img/Group-538.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-4 bold">Security Data</h5>
+                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                        strikes the upper surface</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/img/Group-566.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-4 bold">Branding Strategy</h5>
+                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
+                                        strikes the upper surface</h6>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="/img/Group-567.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-4 bold">SEO Optimization</h5>
-                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
-                                    strikes the upper surface</h6>
-                    </div>
-                </div>
+            
+            <div class="text-center pb-4 pt-4">
+                <button class="btn-red">View All Service</button>
             </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="/img/Group-538.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-4 bold">Security Data</h5>
-                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
-                                    strikes the upper surface</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="/img/Group-566.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mb-4 bold">Branding Strategy</h5>
-                        <h6 class="card-text">When, while the lovely valley teems with vpour around meand the meridian sun
-                                    strikes the upper surface</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="text-center pb-4 pt-4">
-            <button class="btn-red">View All Service</button>
         </div>
     </div>
 </template>

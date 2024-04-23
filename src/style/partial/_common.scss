@@ -24,6 +24,19 @@
     }
 }
 
+.btn-white {
+    background-color: white;
+    border-radius: 20px;
+    padding: 6px 24px;
+    color: salmon;
+    border: none;
+
+    &:hover {
+        background: linear-gradient(90deg, rgba(28, 176, 215, 1) 0%, rgba(82, 124, 235, 1) 100%);
+        color: white;
+    }
+}
+
 .bold {
     font-weight: 800;
 }
@@ -36,14 +49,23 @@ h6 {
     font-size: 12px;
 }
 
+.gradient-salmon-bg {
+    background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
+    color: white;
+}
+
 .gradient-blue-bg {
     background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(82, 124, 235, 1) 100%);
     color: white;
 }
 
-.gradient-white-bg {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 50%, rgba(224, 224, 224, 1) 100%);
+.gradient-blue-bg-ht {
+    background: linear-gradient(180deg, rgba(0,28,103,1) 60%, rgba(229,229,234,1) 40%);
+    color: white;
 }
+
+.white-bg {
+background-color: #e5e5ea;}
 
 .blue-text {
     color: #1CB0D7;

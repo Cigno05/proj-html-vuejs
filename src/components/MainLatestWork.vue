@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="container-lg mt-4">
+    <div class="white-bg">
+        <div class="container-lg pt-4">
             <div class="row">
                 <h6 class="salmon-text">Products</h6>
                 <h3><span class="bold">latest </span>work</h3>
@@ -13,7 +13,7 @@
                     <img src="/img/city.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-3 d-flex justify-content-between">
                         <h6 class="bold ">Purinky products</h6>
-                        <h6 class="gray-text">Digital Experience</h6>
+                        <h6>Digital Experience</h6>
                     </div>
                 </div>
                 
@@ -21,7 +21,7 @@
                     <img src="/img/dazzle.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-3 d-flex justify-content-between">
                         <h6 class="bold ">Purinky products</h6>
-                        <h6 class="gray-text">Digital Experience</h6>
+                        <h6>Digital Experience</h6>
                     </div>
                 </div>
                 
@@ -29,7 +29,7 @@
                     <img src="/img/dry.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-3 d-flex justify-content-between">
                         <h6 class="bold ">Purinky products</h6>
-                        <h6 class="gray-text">Digital Experience</h6>
+                        <h6>Digital Experience</h6>
                     </div>
                 </div>
                 
@@ -37,7 +37,7 @@
                     <img src="/img/city.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-3 d-flex justify-content-between">
                         <h6 class="bold ">Purinky products</h6>
-                        <h6 class="gray-text">Digital Experience</h6>
+                        <h6>Digital Experience</h6>
                     </div>
                 </div>
                 
@@ -45,7 +45,7 @@
                     <img src="/img/phone.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-3 d-flex justify-content-between">
                         <h6 class="bold ">Purinky products</h6>
-                        <h6 class="gray-text">Digital Experience</h6>
+                        <h6>Digital Experience</h6>
                     </div>
                 </div>
 

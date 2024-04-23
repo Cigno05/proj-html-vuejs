@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="gradient-blue-bg">
-      <AppHeader />
-    </div>
-
+    <AppHeader />
     <AppMain />
     <AppFooter />
   </div>
@@ -15,18 +12,17 @@ import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue'
 
 
-  export default {
-    components: {
-      AppHeader,
-      AppMain,
-      AppFooter,
-    },
-    
-  }
+export default {
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter,
+  },
+
+}
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 @use 'bootstrap';
 @use './style/general';
-
 </style>

@@ -11,12 +11,15 @@
         <MainLatestWork />
     </div>
 
+    <MainPricing />
+
 </template>
 
 <script>
 import MainWeDo from './MainWeDo.vue';
 import MainGrow from './MainGrow.vue';
 import MainLatestWork from './MainLatestWork.vue';
+import MainPricing from './MainPricing.vue';
 
 
 export default {
@@ -24,6 +27,7 @@ export default {
         MainWeDo,
         MainGrow,
         MainLatestWork,
+        MainPricing,
     },
 }
 </script>
