@@ -1,3 +1,10 @@
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
 .btn-blue {
     background: linear-gradient(90deg, rgba(28, 176, 215, 1) 0%, rgba(82, 124, 235, 1) 100%);
     border-radius: 20px;
@@ -65,7 +72,7 @@ h6 {
 }
 
 .blue-bg {
-    background-color: #233064;
+    background-color: rgba(0,28,103,1);
     color: white;
 }
 
