@@ -52,35 +52,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .card-post {
     height: 100%;
     min-height: 250px;
     padding: 32px;
     border-radius: 24px;
-    background-color: rgba(0,28,103,1);
+    background-color: rgba(0, 28, 103, 1);
     color: white;
 
 
     h6 {
         margin-bottom: 20px;
-    } 
+    }
+
     button {
         margin-top: 30px;
         color: black;
     }
 }
+
 .card-img {
     background-image: url('/img/computer.jpg');
     background-size: cover;
 
     button {
         width: 130px;
-        
+
     }
+
     h6 {
         margin-bottom: 10px;
-    } 
+    }
 }
-
 </style>

@@ -1,11 +1,11 @@
 <template>
-        <MainWeDo />
-        <MainGrow />
-        <MainLatestWork />
-        <MainPricing />
-        <MainLatestPost />
-        <MainPeople />
-        <MainSponsor />
+    <MainWeDo />
+    <MainGrow />
+    <MainLatestWork />
+    <MainPricing />
+    <MainLatestPost />
+    <MainPeople />
+    <MainSponsor />
 
 </template>
 
@@ -32,6 +32,4 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

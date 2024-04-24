@@ -19,7 +19,7 @@ export default {
     },
     computed: {
         LatestWorkArray() {
-            return this.store.latestWork; 
+            return this.store.latestWork;
         }
     },
 
@@ -27,24 +27,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .card-latest {
 
-width: 350px;
-border-radius: 12px;
-background-color: white;
-padding: 0;
-
-
-img {
+    width: 350px;
     border-radius: 12px;
-}
-
-&:hover {
-    background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
-    color: white;
-}
-}
+    background-color: white;
+    padding: 0;
 
 
+    img {
+        border-radius: 12px;
+    }
+
+    &:hover {
+        background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
+        color: white;
+    }
+}
 </style>

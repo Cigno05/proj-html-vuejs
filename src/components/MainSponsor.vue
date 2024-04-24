@@ -5,18 +5,6 @@
                 <div class="col" v-for="(item, index) in sponsorArray" :key="index">
                     <img :src="item.srcImg" alt="">
                 </div>
-                <!-- <div class="col">
-                    <img src="/img/clienty-2.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="/img/clienty-3.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="/img/clienty-4.png" alt="">
-                </div>
-                <div class="col">
-                    <img src="/img/clienty-5.png" alt="">
-                </div> -->
             </div>
         </div>
     </div>

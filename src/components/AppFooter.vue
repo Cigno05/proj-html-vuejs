@@ -10,15 +10,13 @@ import MainService from './MainService.vue';
 import FooterLinks from './FooterLinks.vue'
 
 
-    export default {
-        components: {
-            MainService,
-            FooterLinks,
-            
-        },
-    }
+export default {
+    components: {
+        MainService,
+        FooterLinks,
+
+    },
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

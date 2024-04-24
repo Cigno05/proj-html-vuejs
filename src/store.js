@@ -45,6 +45,7 @@ export const store = reactive({
             srcImg: "/img/clienty-5.png",
         },
     ],
+
     people: [
         {
             name: "Mickela Angel",
@@ -69,6 +70,7 @@ export const store = reactive({
             vote: 5,
         },
     ],
+
     latestWork: [
         {
             srcImg: "/img/city.jpg",
@@ -106,6 +108,29 @@ export const store = reactive({
             type: "Visible Experience",
         },
     ],
+
+    weDo: [
+        {
+            srcImg: "/img/Group-247.png",
+            title: "Data Analysis",
+            description: "When, while the lovely valley teems with vpour around meand the meridian sun strikes the upper surface",
+        },
+        {
+            srcImg: "/img/Group-567.png",
+            title: "SEO Optimization",
+            description: "When, while the lovely valley teems with vpour around meand the meridian sun strikes the upper surface",
+        },
+        {
+            srcImg: "/img/Group-538.png",
+            title: "Security Data",
+            description: "When, while the lovely valley teems with vpour around meand the meridian sun strikes the upper surface",
+        },
+        {
+            srcImg: "/img/Group-566.png",
+            title: "Branding Strategy",
+            description: "When, while the lovely valley teems with vpour around meand the meridian sun strikes the upper surface",
+        },
+    ]
 
 
 })

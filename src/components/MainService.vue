@@ -16,9 +16,9 @@
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style lang="scss" scoped>
@@ -27,7 +27,7 @@
     color: white;
     border-radius: 24px;
     padding: 48px 12px;
-    
+
     input {
         width: 100%;
         align-self: center;
@@ -35,11 +35,11 @@
         border-radius: 24px;
         padding: 10px;
     }
+
     button {
         position: absolute;
         top: 14px;
         right: 18px;
     }
 }
-
 </style>

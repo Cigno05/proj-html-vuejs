@@ -8,50 +8,7 @@
                 <h6>When, while the lovely valley teems with vpour around meand the</h6>
             </div>
             <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <img src="/img/Group-247.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 bold">Data Analysis</h5>
-                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the
-                                meridian sun
-                                strikes the upper surface</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="/img/Group-567.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 bold">SEO Optimization</h5>
-                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the
-                                meridian sun
-                                strikes the upper surface</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="/img/Group-538.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 bold">Security Data</h5>
-                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the
-                                meridian sun
-                                strikes the upper surface</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card d-flex justify-content-center">
-                        <img src="/img/Group-566.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-4 bold">Branding Strategy</h5>
-                            <h6 class="card-text">When, while the lovely valley teems with vpour around meand the
-                                meridian sun
-                                strikes the upper surface</h6>
-                        </div>
-                    </div>
-                </div>
+                <CardWeDo />
             </div>
 
             <div class="text-center pb-4 pt-4">
@@ -62,9 +19,12 @@
 </template>
 
 <script>
+import CardWeDo from './CardWeDo.vue';
 
 export default {
-    
+    components: {
+        CardWeDo,
+    },
 
 }
 </script>

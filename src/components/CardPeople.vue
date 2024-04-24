@@ -6,10 +6,8 @@
             </div>
             <div class="card-vote">
                 <ul class="d-flex p-0 justify-content-center gap-2">
-                    <li v-for="star in item.vote" :key="star"><font-awesome-icon
-                            :icon="['fas', 'star']" /></li>
-                    <li v-for="star in (5 - item.vote)" :key="star"><font-awesome-icon
-                            :icon="['far', 'star']" /></li>
+                    <li v-for="star in item.vote" :key="star"><font-awesome-icon :icon="['fas', 'star']" /></li>
+                    <li v-for="star in (5 - item.vote)" :key="star"><font-awesome-icon :icon="['far', 'star']" /></li>
 
                 </ul>
             </div>
@@ -36,7 +34,7 @@ export default {
         peopleArray() {
             return this.store.people;
         },
-        
+
     },
 
 }

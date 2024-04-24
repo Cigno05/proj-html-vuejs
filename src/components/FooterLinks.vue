@@ -1,6 +1,6 @@
 <template>
     <div class="blue-bg pt-4">
-        <div class="container-lg">
+        <div class="container">
             <div class="row">
                 <div class="col-3">
                     <ul>
@@ -27,7 +27,7 @@
                                 <h6>Contacts</h6>
                             </li>
                             <li>
-                               <h6>Blog</h6> 
+                                <h6>Blog</h6>
                             </li>
                         </div>
 
@@ -43,10 +43,10 @@
                                 <h6>Art Design</h6>
                             </li>
                             <li>
-                               <h6>Computer</h6>
+                                <h6>Computer</h6>
                             </li>
                             <li>
-                                <h6>IT New</h6>s
+                                <h6>IT New</h6>
                             </li>
                             <li>
                                 <h6>Networking</h6>
@@ -63,7 +63,8 @@
                             <h6 class="bold">Contact Us</h6>
                         </li>
                         <li>
-                            <h6>Address: <span class="gray-text">Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</span> </h6>
+                            <h6>Address: <span class="gray-text">Patricia C. Amedee 4401 Waldeck Street Grapevine
+                                    Nashville, Tx 76051</span> </h6>
                         </li>
                         <li>
                             <h6>Phone: <span class="gray-text">+99(0) 101 0000 888</span></h6>
@@ -115,6 +116,4 @@ export default {
         padding-bottom: 20px;
     }
 }
-
-
 </style>
