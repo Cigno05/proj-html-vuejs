@@ -1,14 +1,14 @@
 <template>
     <div class="blue-bg">
         <div class="header__container">
-            <nav class="navbar navbar-expand-lg container-lg d-flex">
+            <nav class="navbar navbar-expand-lg container d-flex">
                 <div class="me-auto">
                     <a class="navbar-brand" href="#">
-                        <img src="/img/white-logo-2.png" alt="Bootstrap" width="30" height="24">
+                        <img src="/img/white-logo-2.png">
                     </a>
                 </div>
-                <div class="d-flex">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="d-flex flex-row">
+                    <ul class="navbar-nav me-auto mb-2 d-flex flex-row gap-2">
                         <li class="nav-item">
                             <a class="nav-link salmon-text" href="#">Home</a>
                         </li>

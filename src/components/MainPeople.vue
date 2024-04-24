@@ -9,7 +9,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <CardPeople />
+                <!-- <div class="col">
                     <div class="card-people text-center">
                         <div class="card-img">
                             <img src="/img/people-1.png" alt="">
@@ -29,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col">
                     <div class="card-people text-center">
                         <div class="card-img">
                             <img src="/img/people-2.png" alt="">
@@ -49,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col">
                     <div class="card-people text-center">
                         <div class="card-img">
                             <img src="/img/people-3.png" alt="">
@@ -68,7 +69,7 @@
                             <h6>Marketing Manager</h6>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -77,32 +78,19 @@
 </template>
 
 <script>
-export default {
+import CardPeople from './CardPeople.vue';
 
+
+export default {
+    components: {
+        CardPeople,
+    },
+
+    
 }
 </script>
 
 <style lang="scss" scoped>
 
-.card-people {
-    padding: 24px 32px;
 
-    &>* {
-        margin-bottom: 32px;
-    }
-
-}
-
-.card-img {
-    
-    img {
-        width: 120px;
-        border: 3px solid #B6246E;
-        border-radius: 50%;
-    }
-}
-
-.card-vote{
-    color: #B6246E;
-}
 </style>

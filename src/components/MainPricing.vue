@@ -8,10 +8,13 @@
                     <h6>When, while the lovely valley teems with vpour around meand the upper surface</h6>
                 </div>
             </div>
-            <div class="container-lg">
+            <div class="container">
+                <div class="row cards" >
+                    <CardPrice />
+                </div>
 
-                <div class="row cards">
-                    <div class="col-4 p-4">
+                <!-- <div class="row cards">
+                    <div class="col p-4">
                         <div class="card-pricing text-center py-4">
                             <span class="number-bg">40</span>
                             <div class="card-title">
@@ -41,16 +44,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-4">
+                    <div class="col p-4">
                         <div class="card-pricing text-center py-4 gradient-salmon-bg">
-                            <span class="number-bg">40</span>
+                            <span class="number-bg">60</span>
                             <div class="card-title">
                                 <h3 class="bold">Designing</h3>
                                 <h6>PROCESS</h6>
                             </div>
                             <div class="card-body">
                                 <div class="card-price">
-                                    <h1 class="price"><span class="dollar">$</span>40</h1>
+                                    <h1 class="price"><span class="dollar">$</span>60</h1>
                                     <h6>Per Month</h6>
                                 </div>
                                 <div class="card-specs pb-3">
@@ -68,16 +71,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 p-4">
+                    <div class="col p-4">
                         <div class="card-pricing text-center py-4">
-                            <span class="number-bg">40</span>
+                            <span class="number-bg">80</span>
                             <div class="card-title">
                                 <h3 class="bold">Designing</h3>
                                 <h6>PROCESS</h6>
                             </div>
                             <div class="card-body">
                                 <div class="card-price">
-                                    <h1 class="price"><span class="dollar">$</span>40</h1>
+                                    <h1 class="price"><span class="dollar">$</span>80</h1>
                                     <h6 class="gray-text">Per Month</h6>
                                 </div>
                                 <div class="card-specs pb-3">
@@ -98,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -107,62 +110,19 @@
 </template>
 
 <script>
-export default {
 
+import CardPrice from './CardPrice.vue';
+
+
+export default {
+    components: {
+        CardPrice,
+    },
+
+    
 }
 </script>
 
 <style lang="scss" scoped>
 
-.card-pricing {
-    width: 100%;
-    background-color: white;
-    border-radius: 24px;
-    color: black;
-    position: relative;
-    
-}
-
-.number-bg {
-    position: absolute;
-    font-size: 250px;
-    right: -10px;
-    top: -116px;
-    color: rgba($color: #000000, $alpha: 0.15);
-}
-
-.gradient-salmon-bg {
-
-    color: white;
-
-    .number-bg {
-        color: rgba($color: #FFFFFF, $alpha: 0.15);;
-    }
-
-    button {
-        background-color: white;
-        color: salmon;
-
-        &:hover {
-            color: white;
-        }
-    }
-}
-
-.card-title,
-.card-price,
-.card-specs {
-    margin-bottom: 32px;
-}
-
-.price {
-    position: relative;
-    .dollar {
-        font-size: 12px;
-        position: absolute;
-        top: -5px;
-        
-        
-    }
-}
 </style>

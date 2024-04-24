@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6 py-4">
                     <div class="card-post card-img d-flex align-items-end">
                         <div>
                             <h6>April 21,2019 • by Paul </h6>
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 py-4">
                     <div class="card-post">
                         <h6>April 21,2019 • by Paul </h6>
                         <h6 class="bold">Clearing corporations get SEBI nod ti invest in overnight funds</h6>
@@ -31,7 +31,7 @@
                         <button class="btn-white">Read More</button>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 py-4">
                     <div class="card-post">
                         <h6>April 21,2019 • by Paul </h6>
                         <h6 class="bold">Clearing corporations get SEBI nod ti invest in overnight funds</h6>
@@ -55,6 +55,7 @@ export default {
 
 .card-post {
     height: 100%;
+    min-height: 250px;
     padding: 32px;
     border-radius: 24px;
     background-color: rgba(0,28,103,1);
